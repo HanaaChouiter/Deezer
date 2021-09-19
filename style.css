@@ -30,14 +30,19 @@ header nav a{
 .logo{
     width: 100px;
     height: 20px;
-    
 }
 
+
+
 .hero{
-    width: 400px;
+    width: auto;
     height: 350px;
     overflow: hidden;
     
+}
+
+.hero img{
+    height: 400px;
 }
 
 .flex{
@@ -61,10 +66,12 @@ h1{
 .phone{
     width: 200px;
     height: 350px;
+    
+
 }
 
 .space{
-    padding:  80px 280px;
+    padding:  40px 280px;
     background-color: #f9f9f9;
 }
 
@@ -77,25 +84,29 @@ h1{
     margin-left: 300px;
 }
 
-.center2{
-    margin-right: 800px;
+.flex1{
+    display: flex;
+    justify-content: space-between;
 }
+
+
 
 .color p{
     font-size: 10px;
 }
 
 .aside{
-    margin-left: 35px;
-    padding-top: 55px;
+    margin-left: 55px;
+    padding-top: 5Opx;
 }
 
 .aside p{
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .aside2{
     margin-left: 55px;
+    margin-top: 65px;
 }
 
 .design{
@@ -145,14 +156,18 @@ h1{
 
      
 .tableau{
-    width: 150px;
+    width: 170px;
     height: 310px;
     background-color: white;
-    display: inline-block;
-    
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     text-align: center;
     border-spacing: 11px;
+    
+}
+
+.tableau ul li{
+    text-align: left;
+    font-size: 12px;
 }
 
 .placer{
@@ -162,6 +177,8 @@ h1{
 .colorblu{
     background-color: #2d96c8;
 }
+
+
 
 .color1{
     background-color: #f9f9f9;
@@ -211,6 +228,8 @@ header{
     cursor: pointer;
 }
 
+
+
 .bordure{
     background-color: white;
     height: 15px;
@@ -240,6 +259,7 @@ footer{
 
 .tail p{
     margin: 5px 0;
+    font-size: 12px;
 }
 
 .pied ul {
@@ -250,10 +270,29 @@ footer{
     color: #ef5466;
 }
 
-.center2 a{
+.tail a{
     text-decoration: none;
     color:#2d96c8;
 } 
+
+.tail li{
+    margin: 5px ;
+}
+
+.gris{
+    color:#f9f9f9;
+ 
+}
+
+.blanc{
+    color: white;
+    
+}
+
+.grisfonce{
+    color:#8e8e94
+}
+
 
 
 
