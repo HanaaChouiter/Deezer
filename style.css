@@ -11,20 +11,27 @@ body{
     font-family:  'Roboto';
 }
 
+/* header */
+
 header {
     display: flex;
     padding: 20px;
-  }
+    box-shadow:  rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;;
+}
 
 header img {
     padding-right:900px;
 }
 
 header nav a{
-    padding-right: 20px;
+    padding-right: 10px;
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+header nav{
+    padding-left: 55px;
 }
 
 .logo{
@@ -32,105 +39,7 @@ header nav a{
     height: 20px;
 }
 
-
-
-.hero{
-    width: auto;
-    height: 350px;
-    overflow: hidden;
-    
-}
-
-.hero img{
-    height: 400px;
-}
-
-.flex{
-    display: flex;
-    justify-content: center;
-}
-
-.centrer{
-    margin-right: 60px;
-    padding-top: 40px;
-}
-
-h1{
-    font-size: 30px;
-}
-
-.centrer h3{
-    color: #ef5466;
-}
-
-.phone{
-    width: 200px;
-    height: 350px;
-    
-
-}
-
-.space{
-    padding:  40px 280px;
-    background-color: #f9f9f9;
-}
-
-.color{
-    background-color:#ef5466; 
-    color: white;
-}
-
-.center{
-    margin-left: 300px;
-}
-
-.flex1{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
-.color p{
-    font-size: 10px;
-}
-
-.aside{
-    margin-left: 55px;
-    padding-top: 5Opx;
-}
-
-.aside p{
-    font-size: 12px;
-}
-
-.aside2{
-    margin-left: 55px;
-    margin-top: 65px;
-}
-
-.design{
-    background-color: #ef5466;
-    border: 2px solid #fff;
-    border-radius: 50px;
-    color: #fff;
-    font-size: 0.8em;
-    padding: 0.9em 3em;
-    cursor: pointer;
-}
-
 .design1{
-    background-color: white;
-    border: 2px solid black;
-    border-radius: 50px;
-    color: black;
-    font-weight: bold;
-    font-size: 0.8em;
-    padding: 0.9em 3em;
-    cursor: pointer;
-}
-
-.design2{
     background-color: white;
     border: 2px solid #2d96c8;
     border-radius: 50px;
@@ -142,7 +51,7 @@ h1{
     
 }
 
-.design3{
+.design2{
     background-color:#2d96c8;
     border: 2px solid;
     border-radius: 50px;
@@ -153,8 +62,117 @@ h1{
     cursor: pointer;
 }
 
+/* Section 1 */
 
-     
+.hero{
+    width: auto;
+    height: 350px;
+    overflow: hidden;
+}
+
+.hero img{
+    height: 400px;
+}
+
+.flex{
+    display: flex;
+}
+
+.centrer{
+   margin:0;
+   padding-left: 350px;
+   }
+
+.centre{
+   margin-right: 90px;
+    padding-top: 40px;
+    width: 550PX;
+    font-size: 25px;
+}
+
+.centre h3{
+    color: #ef5466;
+}
+
+.design3{
+    background-color: #ef5466;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 0.5em;
+    padding: 0.9em 3em;
+    cursor: pointer;
+
+}
+
+.design4{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 0.5em;
+    padding: 0.9em 3em;
+    cursor: pointer;
+}
+
+
+
+/* Section 2 */
+
+.phone{
+    width: 200px;
+    height: 350px;
+}
+
+.espace{
+    padding:  40px 350px;
+    background-color: #f9f9f9;
+    padding-bottom: 20px;
+}
+
+.aside{
+    margin-left: 55px; /* decolle le texte de l'image */
+    padding-top: 5Opx;
+}
+
+.aside2{
+    margin-left: 55px;
+    margin-top: 65px;
+}
+
+.espace p{
+    font-size: 12px;
+}
+
+/* Section 3 */
+
+.color{
+    background-color:#ef5466; 
+    color: white;
+    justify-content: center;
+}
+
+.color p{
+    font-size: 10px;
+}
+
+.center{
+    padding-left: 300px;
+    padding-bottom: 20px;
+}
+
+/* Section 4 */
+
+.espace2{
+    padding:  50px 280px;
+    padding-bottom: 60px;
+}
+
+.centre2{
+    justify-content: center;
+}
+
 .tableau{
     width: 170px;
     height: 310px;
@@ -162,121 +180,16 @@ h1{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     text-align: center;
     border-spacing: 11px;
-    
 }
 
 .tableau ul li{
     text-align: left;
     font-size: 12px;
-}
-
-.placer{
-    margin-left: 3px;
+    list-style: none;
 }
 
 .colorblu{
     background-color: #2d96c8;
-}
-
-
-
-.color1{
-    background-color: #f9f9f9;
-    padding:  8px 180px;
-}
-
-.space2{
-    padding:  50px 280px;
-}
-
-.bouton{
-    padding-top: 40px;
-}
-
-.design4{
-    background-color: #f9f9f9 ;
-    border: 2px solid;
-    border-radius: 50px;
-    color: black;
-    font-weight: bold;
-    font-size: 0.5em;
-    padding: 0.9em 4em;
-    cursor: pointer;
-}
-
-header{
-    box-shadow:  rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;;
-}
-
-.design5{
-    background-color: #ef5466;
-    border: 2px solid #ef5466;
-    border-radius: 50px;
-    color: #fff;
-    font-size: 0.6em;
-    padding: 0.9em 3.5em;
-    cursor: pointer;
-}
-
-.design6{
-    background-color:#8e8e94;
-    border: 2px solid #8e8e94;
-    border-radius: 50px;
-    color: #fff;
-    font-size: 0.6em;
-    padding: 0.9em 3.5em;
-    cursor: pointer;
-}
-
-
-
-.bordure{
-    background-color: white;
-    height: 15px;
-}
-
-
-
-ul{
-    list-style: none;
-}
-li a{
-    text-decoration: none;
-    color:white
-}
-
-footer{
-    background-color: black;
-  
-}
-
-.taille ul li{
-    margin: 10px 0;
-    font-size: 10px;
-}
-
-
-
-.tail p{
-    margin: 5px 0;
-    font-size: 12px;
-}
-
-.pied ul {
-    margin: 30px 90px;
-}
-
-.reduction{
-    color: #ef5466;
-}
-
-.tail a{
-    text-decoration: none;
-    color:#2d96c8;
-} 
-
-.tail li{
-    margin: 5px ;
 }
 
 .gris{
@@ -293,6 +206,74 @@ footer{
     color:#8e8e94
 }
 
+.tail p{
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.design5{
+    background-color:#8e8e94;
+    border: 2px solid #8e8e94;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 0.6em;
+    padding: 0.9em 3.5em;
+    cursor: pointer;
+}
+
+.design6{
+    background-color: #ef5466;
+    border: 2px solid #ef5466;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 0.6em;
+    padding: 0.9em 3.5em;
+    cursor: pointer;
+}
+
+/* Section 5 */
+
+.color1{
+    background-color: #f9f9f9;
+    padding:  8px 180px;
+    justify-content: space-between;
+}
+
+.bordure{
+    background-color: white;
+    height: 15px;
+}
+
+.reduction{
+    color: #ef5466;
+}
+
+.color1 a{
+    text-decoration: none;
+    color:#2d96c8;
+}
+
+/* FOOTER */
+
+.foot{
+    background-color: black;
+  
+}
+
+.taille ul li{
+    margin: 10px 0;
+    font-size: 10px;
+   
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.pied ul {
+    margin: 30px 90px;
+}
 
 
 
